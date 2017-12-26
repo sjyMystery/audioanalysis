@@ -1,0 +1,28 @@
+{
+    "boundary":"___dumi_dcs_client_wangpeng20___",
+    "directive_uri":"/dcs/v1/directives",
+    "events_uri":"/dcs/v1/events",
+    "ping_uri":"/dcs/v1/ping",
+    "device_id":"wangpeng20_dumi_123456",
+
+
+    "host":"dueros-h2.baidu.com",
+    "ip":"dueros-h2.baidu.com",
+    "schema":"http://",
+    "protocol":"http",
+    "downstream_protocol":"http2",
+
+    "event_header":{
+        "from_mac":"1",
+        "debug_boss":"nj03-rp-m22nlp156.nj03.baidu.com:8486"
+    },
+
+    "rec_env":{},
+    "play_env":{},
+
+    "rec_cmd":"/usr/local/bin/rec",
+    "play_cmd":"/usr/local/bin/play",
+    "sox_cmd":"/usr/local/bin/sox",
+
+    "oauth_token":"21.4f913f99a7b4037f00b27fc9e556ebdb.2592000.1516865106.2352761991-9943590"
+}
