@@ -17,6 +17,8 @@ const BaseManager = require("./base_manager");
 const util = require('util');
 const DataStreamPlayer = require("./data_stream_player");
 const DcsProtocol = require("./dcs_protocol");
+const config = require("./config.js").getAll();
+
 
 function VoiceOutputManager(controller) {
     this.ttsplayer = new DataStreamPlayer();
@@ -37,7 +39,7 @@ function VoiceOutputManager(controller) {
         this.emit("end");
     });
     controller.on("content", (content_id, content) => {
-        if (this.content_id = content_id) {
+        if (this.content_id = content_id && config.play_after_invoke) {
             this.ttsplayer.play(content);
         } else {
             this.content_cache = [content_id, content];

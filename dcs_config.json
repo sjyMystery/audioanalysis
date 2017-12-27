@@ -24,5 +24,6 @@
     "play_cmd":"/usr/local/bin/play",
     "sox_cmd":"/usr/local/bin/sox",
 
-    "oauth_token":"21.4f913f99a7b4037f00b27fc9e556ebdb.2592000.1516865106.2352761991-9943590"
+    "oauth_token":"21.4f913f99a7b4037f00b27fc9e556ebdb.2592000.1516865106.2352761991-9943590",
+    "play_after_invoke":false
 }
